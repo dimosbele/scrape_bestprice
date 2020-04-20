@@ -21,7 +21,7 @@ sk = bestprice()
 for category in categories[0:]:
 	
 	# define the path of the .csv file in which the scraped data will be saved
-    csvFileName = '/home/desktop/dissertation/results/' + category['Category'] + '-' + category['SubCategory']+'.csv'
+    csvFileName = '.../results/' + category['Category'] + '-' + category['SubCategory']+'.csv'
 	# initialize the .csv file
     initializeCsv(filename=csvFileName)
  
