@@ -47,7 +47,7 @@ class bestprice:
         next_page = brand_url.format(ith)
         
 		# define the path of the csv file in which the scraped data will be saved
-        csvFileName = '/home/desktop/dissertation/results/' + category['Category'] + '-' + category['SubCategory']+'.csv'
+        csvFileName = '.../results/' + category['Category'] + '-' + category['SubCategory']+'.csv'
         
         try:
 			# increase the counter each time a page is scraped
